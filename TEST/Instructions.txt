@@ -1,0 +1,7 @@
+Instructions
+
+Open the Terminal and navigate to the 'TEST' directory. Then run python NLP_ArticleData.py
+
+Here, I have already run the above and thus there are all the articles in the folder 'Scraped Articles', and the final 'Output.csv'.
+
+In the Scrapy Files folder, there is the Scrapy Crawler called 'articlespider' which was run to scrape the data from the urls, present in 'Input.xlsx' in the 'article-data' folder. The yield of the spider was saved to 'articles.csv' in the 'article_data folder'. It was observed that the crawler was not capable of scraping about 3 or 4 urls, and thus they were filled in manually and copied to the base 'TEST' directory.
